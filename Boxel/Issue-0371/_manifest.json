@@ -14,6 +14,26 @@
     "stagedAt": "2026-08-25T17:51:09+00:00",
     "url": "https://raw.githubusercontent.com/LilSaints/issue-evidence/b913bad7cc23edc69aebb4c7d2a4bc27065d1fb9/Boxel/Issue-0371/wg-coast.png"
   },
+  "wg-lowland-contrast-bands.png": {
+    "bytes": 590090,
+    "dimensions": [
+      878,
+      420
+    ],
+    "inlineClass": "native_pixels",
+    "note": "Native 1:1 inline crop spanning both bands the 3.7x claim compares: far 341-467 and nearest 656-719 in source rows",
+    "sha256": "87f5c620a5eca7473ac5cb40adc9805ad557f89a0e104a43baff5eb044655152",
+    "source": "C:\\Dev\\issue-evidence\\Boxel\\Issue-0371\\wg-lowland.png",
+    "sourceImage": "wg-lowland.png",
+    "sourceRect": {
+      "h": 420,
+      "w": 878,
+      "x": 201,
+      "y": 300
+    },
+    "stagedAt": "2026-08-25T18:00:09+00:00",
+    "url": null
+  },
   "wg-lowland.png": {
     "bytes": 1369197,
     "commit": "b913bad7cc23edc69aebb4c7d2a4bc27065d1fb9",
