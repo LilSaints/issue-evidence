@@ -1,0 +1,55 @@
+{
+  "20260825T195551079Z-17056-4FD389644E165C0AB2CA6F8A4878FB87-game_viewport.png": {
+    "bytes": 3599079,
+    "dimensions": [
+      2590,
+      1123
+    ],
+    "inlineClass": "orientation_only",
+    "note": "Whole frame for orientation only: 2590px wide, so the issue column downscales it 0.34x. Do not read texel detail from this one.",
+    "sha256": "1744c431cda9f3b4d0b68ff7c1730a0ba4cb2387e5c08e5ddfd66c267329e8de",
+    "source": "C:\\Unreal 5.7 Projects\\BoxelUltimate\\Saved\\Screenshots\\UCP\\20260825T195551079Z-17056-4FD389644E165C0AB2CA6F8A4878FB87-game_viewport.png",
+    "stagedAt": "2026-08-25T20:22:19+00:00",
+    "url": null
+  },
+  "emissive-lava-texel-mask.png": {
+    "bytes": 577827,
+    "dimensions": [
+      878,
+      440
+    ],
+    "inlineClass": "native_pixels",
+    "note": "Pure lava at native resolution: per-texel MER.G coverage, bright cells against dark crack lines.",
+    "sha256": "1ce96b970570dc5bf629070e348b95b3fe89229d30439603b714cfe7b84f7e11",
+    "source": "C:\\Unreal 5.7 Projects\\BoxelUltimate\\Saved\\Screenshots\\UCP\\20260825T195551079Z-17056-4FD389644E165C0AB2CA6F8A4878FB87-game_viewport.png",
+    "sourceImage": "20260825T195551079Z-17056-4FD389644E165C0AB2CA6F8A4878FB87-game_viewport.png",
+    "sourceRect": {
+      "h": 440,
+      "w": 878,
+      "x": 1550,
+      "y": 250
+    },
+    "stagedAt": "2026-08-25T20:22:12+00:00",
+    "url": null
+  },
+  "emissive-rock-lava-boundary.png": {
+    "bytes": 414254,
+    "dimensions": [
+      878,
+      440
+    ],
+    "inlineClass": "native_pixels",
+    "note": "Non-emissive stone (left) against emissive lava (right) at the same pose. 878px wide so it renders 1:1 in the issue column.",
+    "sha256": "4f8183a7d533b69f0c9db2d983fc5682e41906356cdc739bc96d00a690764eea",
+    "source": "C:\\Unreal 5.7 Projects\\BoxelUltimate\\Saved\\Screenshots\\UCP\\20260825T195551079Z-17056-4FD389644E165C0AB2CA6F8A4878FB87-game_viewport.png",
+    "sourceImage": "20260825T195551079Z-17056-4FD389644E165C0AB2CA6F8A4878FB87-game_viewport.png",
+    "sourceRect": {
+      "h": 440,
+      "w": 878,
+      "x": 700,
+      "y": 350
+    },
+    "stagedAt": "2026-08-25T20:22:11+00:00",
+    "url": null
+  }
+}
