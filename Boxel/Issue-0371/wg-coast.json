@@ -1,0 +1,270 @@
+{
+  "schema": "ucp-visual-baseline-2",
+  "label": "wg-coast",
+  "capturedAt": "2026-08-25T15:26:05.147Z",
+  "width": 1280,
+  "height": 720,
+  "sourceApi": "FScreenshotRequest.RequestScreenshot(OnScreenshotCaptured)",
+  "includeUi": false,
+  "freezeScene": true,
+  "scenePosture": "pause",
+  "provenance": {
+    "issue": "Boxel #346 Part 1 re-capture",
+    "commit": "fbfabb0",
+    "branch": "WorldgenV12",
+    "map": "/Boxel/Example/Maps/BXL_GameMap",
+    "seed": 1337,
+    "site": "coast - the PlayerStart column voxel (0, 0), topSolidZ 97 / topNonAirZ 98, dry, the origin patch's local MAXIMUM, ~440 voxels from ocean; the shoreline column (250,60) sits at topSolidZ 63 = SeaLevel exactly",
+    "poseRecipe": "ue_view action=set mode=bugitgo location={x:15.65,y:15.65,z:11047.95} rotation={pitch:-6,yaw:45,roll:0} settleMs=500",
+    "cameraReadBack": {
+      "x": 31.3,
+      "y": 31.3,
+      "z": 11095.9,
+      "pitch": -6,
+      "yaw": 45,
+      "roll": 0,
+      "fov": 90
+    },
+    "cameraVoxel": [
+      0,
+      0,
+      110
+    ],
+    "airCheck": "boxel.voxel_at {0,0,110} -> air:true, type:0 (PASS) - note the PlayerStart camera itself, at voxel (0,0,90), is 9 voxels INSIDE solid rock and was re-confirmed occupied:true, conclusive:true this session",
+    "viewportPinned": "1280x720 leaseMs 0, generation ucpvg1:1280x720:79aad1d9",
+    "gate": "boxel.worldgen_quiescent x5 consecutive @1000ms: captureReady true, renderStreamingConverged true, renderResolvedOriginEpoch 4 == viewOriginEpoch 4, renderDesiredChunks 8917 == renderResolvedChunks 8917, meshTasksInFlight 0, rendererInFlight 0, dirtyNodes false, initialStreamingComplete true, regionPendingLoads 0, regionPendingSaves 0, regionLoadsAwaitingRetry 0, regionSavesAwaitingRetry 0",
+    "capturePosture": "freezeScene=pause (PIE tick STOPPED, Boxel #366) under the project's own full lighting - no render pins beyond r.SkyAtmosphere.EditorNotifications 0",
+    "convergenceNote": "the exact epsilon-3 bound (maxAboveEpsilonPixels 0) FAILED here at attempt 6/6 with 4 of 921600 px past epsilon, max byte delta 6, in two clusters at (277-279,283) and (13,503). Re-run with a STATED bound of 16 px. The other four slots converged on the exact bound.",
+    "supersedes": "the 2026-08-25 06:0x slot of the same label, shot through Boxel #367 under freezeScene=dilate"
+  },
+  "extraCVars": [
+    {
+      "name": "r.SkyAtmosphere.EditorNotifications",
+      "value": "0"
+    }
+  ],
+  "environment": {
+    "platform": "Windows",
+    "rhi": "D3D12",
+    "adapter": "NVIDIA GeForce RTX 3080 Laptop GPU",
+    "driverVersion": "581.15",
+    "internalDriverVersion": "32.0.15.8115",
+    "featureLevel": "SM6",
+    "shaderPlatform": "PCD3D_SM6",
+    "engineVersion": "5.8.1-56057345+++UE5+Release-5.8",
+    "engineChangelist": 56057345,
+    "pluginVersion": "0.69.0",
+    "osBuild": "10.0.19045.1.256.64bit"
+  },
+  "convergence": {
+    "outcome": "converged",
+    "proven": true,
+    "settle": {
+      "outcome": "converged",
+      "converged": true,
+      "settleAttempts": 2,
+      "maxAttempts": 6,
+      "deadlineMs": 30000,
+      "elapsedMs": 647,
+      "epsilon": 3,
+      "bound": {
+        "epsilon": 3,
+        "maxAboveEpsilonPixels": 16
+      },
+      "exact": false,
+      "finalDelta": {
+        "previousAttempt": 1,
+        "currentAttempt": 2,
+        "previous": {
+          "width": 1280,
+          "height": 720
+        },
+        "current": {
+          "width": 1280,
+          "height": 720
+        },
+        "comparable": true,
+        "epsilon": 3,
+        "withinEpsilon": false,
+        "bound": {
+          "epsilon": 3,
+          "maxAboveEpsilonPixels": 16
+        },
+        "withinBound": true,
+        "comparedPixels": 921600,
+        "changedPixels": 2832,
+        "aboveEpsilonPixels": 5,
+        "changedPixelRatio": 0.0030729166666666665,
+        "aboveEpsilonPixelRatio": 0.0000054253472222222224,
+        "meanAbsoluteByteDelta": 0.0009304470486111111,
+        "maxAbsoluteByteDelta": 6,
+        "evidence": [
+          {
+            "x": 277,
+            "y": 283,
+            "maxByteDelta": 6
+          },
+          {
+            "x": 278,
+            "y": 283,
+            "maxByteDelta": 4
+          },
+          {
+            "x": 279,
+            "y": 283,
+            "maxByteDelta": 4
+          },
+          {
+            "x": 1232,
+            "y": 374,
+            "maxByteDelta": 4
+          },
+          {
+            "x": 1175,
+            "y": 440,
+            "maxByteDelta": 4
+          }
+        ],
+        "evidenceTruncated": false
+      }
+    }
+  },
+  "viewOrigin": {
+    "status": "probed",
+    "policy": "refuse",
+    "occupancy": {
+      "point": {
+        "x": 31.3006,
+        "y": 31.3006,
+        "z": 11095.8993
+      },
+      "source": "camera",
+      "verdict": "not_detected",
+      "occupied": false,
+      "conclusive": false,
+      "channel": "visibility",
+      "radiusUu": 1,
+      "probeDistanceUu": 20000,
+      "overlap": {
+        "blocking": false,
+        "hits": []
+      },
+      "enclosure": {
+        "axes": 6,
+        "crossings": 0,
+        "outwardHits": 1,
+        "samples": [
+          {
+            "direction": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "crossing": false
+          },
+          {
+            "direction": {
+              "x": 0,
+              "y": 0,
+              "z": -1
+            },
+            "crossing": false,
+            "outwardHitUu": 1295.9,
+            "actor": "/Boxel/Example/Maps/UEDPIE_0_BXL_GameMap.BXL_GameMap:PersistentLevel.BP_BoxelActor_C_0",
+            "component": "BoxelChunkCollisionComponent_367"
+          },
+          {
+            "direction": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "crossing": false
+          },
+          {
+            "direction": {
+              "x": -1,
+              "y": 0,
+              "z": 0
+            },
+            "crossing": false
+          },
+          {
+            "direction": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "crossing": false
+          },
+          {
+            "direction": {
+              "x": 0,
+              "y": -1,
+              "z": 0
+            },
+            "crossing": false
+          }
+        ]
+      },
+      "ignoredActors": [
+        "/Boxel/Example/Maps/UEDPIE_0_BXL_GameMap.BXL_GameMap:PersistentLevel.BP_BXL_Character_C_0"
+      ],
+      "note": "verdict=not_detected is NOT proof of open air: collision that is streamed out, geometry authored without collision, a body with bDoubleSidedGeometry (whose backfaces the outward leg also sees, so no crossing is recorded), and burial deeper than probeDistanceUu on all six axes each produce this verdict from inside solid geometry. A project that can answer occupancy authoritatively for its own world should still do so."
+    }
+  },
+  "profile": [
+    {
+      "name": "r.AntiAliasingMethod",
+      "value": "0"
+    },
+    {
+      "name": "r.DefaultFeature.AutoExposure",
+      "value": "0"
+    },
+    {
+      "name": "r.DefaultFeature.MotionBlur",
+      "value": "0"
+    },
+    {
+      "name": "r.MotionBlurQuality",
+      "value": "0"
+    },
+    {
+      "name": "r.SSR.Quality",
+      "value": "0"
+    },
+    {
+      "name": "r.ContactShadows",
+      "value": "0"
+    },
+    {
+      "name": "r.EyeAdaptationQuality",
+      "value": "0"
+    },
+    {
+      "name": "r.TonemapperGamma",
+      "value": "2.2"
+    },
+    {
+      "name": "r.DynamicRes.TestScreenPercentage",
+      "value": "0"
+    },
+    {
+      "name": "r.DynamicRes.OperationMode",
+      "value": "0"
+    },
+    {
+      "name": "r.ScreenPercentage",
+      "value": "100"
+    },
+    {
+      "name": "r.SecondaryScreenPercentage.GameViewport",
+      "value": "100"
+    },
+    {
+      "name": "r.SkyAtmosphere.EditorNotifications",
+      "value": "0"
+    }
+  ]
+}

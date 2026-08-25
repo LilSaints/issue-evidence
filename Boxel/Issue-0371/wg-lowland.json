@@ -1,0 +1,241 @@
+{
+  "schema": "ucp-visual-baseline-2",
+  "label": "wg-lowland",
+  "capturedAt": "2026-08-25T15:24:44.936Z",
+  "width": 1280,
+  "height": 720,
+  "sourceApi": "FScreenshotRequest.RequestScreenshot(OnScreenshotCaptured)",
+  "includeUi": false,
+  "freezeScene": true,
+  "scenePosture": "pause",
+  "provenance": {
+    "issue": "Boxel #346 Part 1 re-capture",
+    "commit": "fbfabb0",
+    "branch": "WorldgenV12",
+    "map": "/Boxel/Example/Maps/BXL_GameMap",
+    "seed": 1337,
+    "site": "lowland, origin patch voxel (384, 192) - the |dH| p50 0 / p99 1 / max 1 fixture over 523,264 pairs (BoxelWorldgenCharacterizationTest.cpp:284-286); topSolidZ 53 / topNonAirZ 63, submerged",
+    "poseRecipe": "ue_view action=set mode=bugitgo location={x:25015.06,y:6015.06,z:8548.33} rotation={pitch:-5,yaw:45,roll:0} settleMs=500",
+    "cameraReadBack": {
+      "x": 25030.12,
+      "y": 6030.12,
+      "z": 8596.66,
+      "pitch": -5,
+      "yaw": 45,
+      "roll": 0,
+      "fov": 90
+    },
+    "cameraVoxel": [
+      250,
+      60,
+      85
+    ],
+    "airCheck": "boxel.voxel_at {250,60,85} -> air:true, type:0 (PASS)",
+    "viewportPinned": "1280x720 leaseMs 0, generation ucpvg1:1280x720:79aad1d9",
+    "gate": "boxel.worldgen_quiescent x5 consecutive @1000ms: captureReady true, renderStreamingConverged true, renderResolvedOriginEpoch 3 == viewOriginEpoch 3 (re-armed from 2 across the 10.9 km teleport), renderDesiredChunks 8917 == renderResolvedChunks 8917, meshTasksInFlight 0, rendererInFlight 0, dirtyNodes false, initialStreamingComplete true, regionPendingLoads 0, regionPendingSaves 0, regionLoadsAwaitingRetry 0, regionSavesAwaitingRetry 0",
+    "capturePosture": "freezeScene=pause (PIE tick STOPPED, Boxel #366) under the project's own full lighting - no render pins beyond r.SkyAtmosphere.EditorNotifications 0",
+    "supersedes": "the 2026-08-25 06:0x slot of the same label, shot through Boxel #367 under freezeScene=dilate"
+  },
+  "extraCVars": [
+    {
+      "name": "r.SkyAtmosphere.EditorNotifications",
+      "value": "0"
+    }
+  ],
+  "environment": {
+    "platform": "Windows",
+    "rhi": "D3D12",
+    "adapter": "NVIDIA GeForce RTX 3080 Laptop GPU",
+    "driverVersion": "581.15",
+    "internalDriverVersion": "32.0.15.8115",
+    "featureLevel": "SM6",
+    "shaderPlatform": "PCD3D_SM6",
+    "engineVersion": "5.8.1-56057345+++UE5+Release-5.8",
+    "engineChangelist": 56057345,
+    "pluginVersion": "0.69.0",
+    "osBuild": "10.0.19045.1.256.64bit"
+  },
+  "convergence": {
+    "outcome": "converged",
+    "proven": true,
+    "settle": {
+      "outcome": "converged",
+      "converged": true,
+      "settleAttempts": 2,
+      "maxAttempts": 6,
+      "deadlineMs": 30000,
+      "elapsedMs": 770,
+      "epsilon": 3,
+      "bound": {
+        "epsilon": 3
+      },
+      "exact": true,
+      "finalDelta": {
+        "previousAttempt": 1,
+        "currentAttempt": 2,
+        "previous": {
+          "width": 1280,
+          "height": 720
+        },
+        "current": {
+          "width": 1280,
+          "height": 720
+        },
+        "comparable": true,
+        "epsilon": 3,
+        "withinEpsilon": true,
+        "bound": {
+          "epsilon": 3
+        },
+        "withinBound": true,
+        "comparedPixels": 921600,
+        "changedPixels": 1733,
+        "aboveEpsilonPixels": 0,
+        "changedPixelRatio": 0.0018804253472222221,
+        "aboveEpsilonPixelRatio": 0,
+        "meanAbsoluteByteDelta": 0.0005349392361111111,
+        "maxAbsoluteByteDelta": 2,
+        "evidence": [],
+        "evidenceTruncated": false
+      }
+    }
+  },
+  "viewOrigin": {
+    "status": "probed",
+    "policy": "refuse",
+    "occupancy": {
+      "point": {
+        "x": 25030.117,
+        "y": 6030.1166,
+        "z": 8596.6582
+      },
+      "source": "camera",
+      "verdict": "not_detected",
+      "occupied": false,
+      "conclusive": false,
+      "channel": "visibility",
+      "radiusUu": 1,
+      "probeDistanceUu": 20000,
+      "overlap": {
+        "blocking": false,
+        "hits": []
+      },
+      "enclosure": {
+        "axes": 6,
+        "crossings": 0,
+        "outwardHits": 1,
+        "samples": [
+          {
+            "direction": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "crossing": false
+          },
+          {
+            "direction": {
+              "x": 0,
+              "y": 0,
+              "z": -1
+            },
+            "crossing": false,
+            "outwardHitUu": 2196.66,
+            "actor": "/Boxel/Example/Maps/UEDPIE_0_BXL_GameMap.BXL_GameMap:PersistentLevel.BP_BoxelActor_C_0",
+            "component": "BoxelChunkCollisionComponent_324"
+          },
+          {
+            "direction": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "crossing": false
+          },
+          {
+            "direction": {
+              "x": -1,
+              "y": 0,
+              "z": 0
+            },
+            "crossing": false
+          },
+          {
+            "direction": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "crossing": false
+          },
+          {
+            "direction": {
+              "x": 0,
+              "y": -1,
+              "z": 0
+            },
+            "crossing": false
+          }
+        ]
+      },
+      "ignoredActors": [
+        "/Boxel/Example/Maps/UEDPIE_0_BXL_GameMap.BXL_GameMap:PersistentLevel.BP_BXL_Character_C_0"
+      ],
+      "note": "verdict=not_detected is NOT proof of open air: collision that is streamed out, geometry authored without collision, a body with bDoubleSidedGeometry (whose backfaces the outward leg also sees, so no crossing is recorded), and burial deeper than probeDistanceUu on all six axes each produce this verdict from inside solid geometry. A project that can answer occupancy authoritatively for its own world should still do so."
+    }
+  },
+  "profile": [
+    {
+      "name": "r.AntiAliasingMethod",
+      "value": "0"
+    },
+    {
+      "name": "r.DefaultFeature.AutoExposure",
+      "value": "0"
+    },
+    {
+      "name": "r.DefaultFeature.MotionBlur",
+      "value": "0"
+    },
+    {
+      "name": "r.MotionBlurQuality",
+      "value": "0"
+    },
+    {
+      "name": "r.SSR.Quality",
+      "value": "0"
+    },
+    {
+      "name": "r.ContactShadows",
+      "value": "0"
+    },
+    {
+      "name": "r.EyeAdaptationQuality",
+      "value": "0"
+    },
+    {
+      "name": "r.TonemapperGamma",
+      "value": "2.2"
+    },
+    {
+      "name": "r.DynamicRes.TestScreenPercentage",
+      "value": "0"
+    },
+    {
+      "name": "r.DynamicRes.OperationMode",
+      "value": "0"
+    },
+    {
+      "name": "r.ScreenPercentage",
+      "value": "100"
+    },
+    {
+      "name": "r.SecondaryScreenPercentage.GameViewport",
+      "value": "100"
+    },
+    {
+      "name": "r.SkyAtmosphere.EditorNotifications",
+      "value": "0"
+    }
+  ]
+}

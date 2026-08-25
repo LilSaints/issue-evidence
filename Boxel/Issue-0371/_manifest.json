@@ -1,0 +1,28 @@
+{
+  "wg-coast.png": {
+    "bytes": 1545430,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "note": "Boxel #371 far-shell contrast inversion; #346 Part 1 re-capture at fbfabb0, freezeScene=pause, convergence.proven",
+    "provenanceSidecar": "wg-coast.json",
+    "sha256": "2514bfaae6e0299afa000dbcbc5e6ae1e9a9a2b30336a3cadd8a7d192051d434",
+    "source": "C:\\Unreal 5.7 Projects\\BoxelUltimate\\Saved\\UCP\\visual-baselines\\wg-coast.png",
+    "stagedAt": "2026-08-25T17:51:09+00:00",
+    "url": null
+  },
+  "wg-lowland.png": {
+    "bytes": 1369197,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "note": "Boxel #371 far-shell contrast inversion; #346 Part 1 re-capture at fbfabb0, freezeScene=pause, convergence.proven",
+    "provenanceSidecar": "wg-lowland.json",
+    "sha256": "abd3289f01e14109f681132104aa99be17a0d73aacfa32c7919d9f43038ce70a",
+    "source": "C:\\Unreal 5.7 Projects\\BoxelUltimate\\Saved\\UCP\\visual-baselines\\wg-lowland.png",
+    "stagedAt": "2026-08-25T17:51:09+00:00",
+    "url": null
+  }
+}
