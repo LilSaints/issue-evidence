@@ -1,27 +1,29 @@
 {
   "wg-coast.png": {
     "bytes": 1545430,
-    "commit": "b913bad7cc23edc69aebb4c7d2a4bc27065d1fb9",
+    "commit": "2093e831e7511c647de48a019009e43870c9034c",
     "dimensions": [
       1280,
       720
     ],
     "note": "Boxel #371 far-shell contrast inversion; #346 Part 1 re-capture at fbfabb0, freezeScene=pause, convergence.proven",
     "provenanceSidecar": "wg-coast.json",
-    "publishedAt": "2026-08-25T17:51:26+00:00",
+    "publishedAt": "2026-08-25T18:00:40+00:00",
     "sha256": "2514bfaae6e0299afa000dbcbc5e6ae1e9a9a2b30336a3cadd8a7d192051d434",
     "source": "C:\\Unreal 5.7 Projects\\BoxelUltimate\\Saved\\UCP\\visual-baselines\\wg-coast.png",
     "stagedAt": "2026-08-25T17:51:09+00:00",
-    "url": "https://raw.githubusercontent.com/LilSaints/issue-evidence/b913bad7cc23edc69aebb4c7d2a4bc27065d1fb9/Boxel/Issue-0371/wg-coast.png"
+    "url": "https://raw.githubusercontent.com/LilSaints/issue-evidence/2093e831e7511c647de48a019009e43870c9034c/Boxel/Issue-0371/wg-coast.png"
   },
   "wg-lowland-contrast-bands.png": {
     "bytes": 590090,
+    "commit": "2093e831e7511c647de48a019009e43870c9034c",
     "dimensions": [
       878,
       420
     ],
     "inlineClass": "native_pixels",
     "note": "Native 1:1 inline crop spanning both bands the 3.7x claim compares: far 341-467 and nearest 656-719 in source rows",
+    "publishedAt": "2026-08-25T18:00:40+00:00",
     "sha256": "87f5c620a5eca7473ac5cb40adc9805ad557f89a0e104a43baff5eb044655152",
     "source": "C:\\Dev\\issue-evidence\\Boxel\\Issue-0371\\wg-lowland.png",
     "sourceImage": "wg-lowland.png",
@@ -32,21 +34,21 @@
       "y": 300
     },
     "stagedAt": "2026-08-25T18:00:09+00:00",
-    "url": null
+    "url": "https://raw.githubusercontent.com/LilSaints/issue-evidence/2093e831e7511c647de48a019009e43870c9034c/Boxel/Issue-0371/wg-lowland-contrast-bands.png"
   },
   "wg-lowland.png": {
     "bytes": 1369197,
-    "commit": "b913bad7cc23edc69aebb4c7d2a4bc27065d1fb9",
+    "commit": "2093e831e7511c647de48a019009e43870c9034c",
     "dimensions": [
       1280,
       720
     ],
     "note": "Boxel #371 far-shell contrast inversion; #346 Part 1 re-capture at fbfabb0, freezeScene=pause, convergence.proven",
     "provenanceSidecar": "wg-lowland.json",
-    "publishedAt": "2026-08-25T17:51:26+00:00",
+    "publishedAt": "2026-08-25T18:00:40+00:00",
     "sha256": "abd3289f01e14109f681132104aa99be17a0d73aacfa32c7919d9f43038ce70a",
     "source": "C:\\Unreal 5.7 Projects\\BoxelUltimate\\Saved\\UCP\\visual-baselines\\wg-lowland.png",
     "stagedAt": "2026-08-25T17:51:09+00:00",
-    "url": "https://raw.githubusercontent.com/LilSaints/issue-evidence/b913bad7cc23edc69aebb4c7d2a4bc27065d1fb9/Boxel/Issue-0371/wg-lowland.png"
+    "url": "https://raw.githubusercontent.com/LilSaints/issue-evidence/2093e831e7511c647de48a019009e43870c9034c/Boxel/Issue-0371/wg-lowland.png"
   }
 }
