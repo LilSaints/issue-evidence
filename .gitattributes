@@ -1,0 +1,11 @@
+# Never let line-ending normalisation touch a capture. A mangled byte in a PNG
+# is a corrupt image, and the whole point of this repo is that the bytes are the
+# evidence.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+
+*.md  text eol=lf
+*.json text eol=lf
